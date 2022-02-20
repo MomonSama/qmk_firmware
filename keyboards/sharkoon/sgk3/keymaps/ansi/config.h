@@ -34,6 +34,8 @@
 #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 255
 #define RGB_MATRIX_STARTUP_SPD 32
+#define USB_POLLING_INTERVAL_MS 1
+#define FORCE_NKRO
 
 /* Key matrix size */
 #define MATRIX_ROWS 6
@@ -45,7 +47,7 @@
 #define MATRIX_ROW_PINS { D15, D14, D13, D12, D11, D10 }
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 5
+#define DEBOUNCE 10
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 //#define LOCKING_SUPPORT_ENABLE
