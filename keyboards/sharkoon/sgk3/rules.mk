@@ -55,7 +55,6 @@ RGBLIGHT_ENABLE = no
 SERIAL_LINK_ENABLE = no
 WAIT_FOR_USB = no
 CUSTOM_MATRIX = yes
-DEBOUNCE_TYPE = sym_defer_pk
 
 
 # Custom RGB matrix handling
