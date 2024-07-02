@@ -39,7 +39,7 @@ OPT_DEFS = -O2
 # Build Options
 #   comment out to disable the options.
 #
-LTO_ENABLE = no
+LTO_ENABLE = yes
 BACKLIGHT_ENABLE = no
 MAGIC_ENABLE = yes
 MAGIC_KEYCODE_ENABLE = yes
