@@ -47,7 +47,7 @@
 #define MATRIX_ROW_PINS { D15, D14, D13, D12, D11, D10 }
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 5
+#define DEBOUNCE 3
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 //#define LOCKING_SUPPORT_ENABLE
